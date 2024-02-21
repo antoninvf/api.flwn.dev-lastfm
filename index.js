@@ -9,7 +9,7 @@ const apiKey = process.env.API_KEY;
 const limit = '1';
 
 app.get('/', (req, res) => {
-	const user = process.env.USER;
+	const user = 'flowyan';
 
 	const url = `http://ws.audioscrobbler.com/2.0/?method=${method}&api_key=${apiKey}&user=${user}&limit=${limit}&format=json`;
 
