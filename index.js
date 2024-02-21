@@ -47,5 +47,5 @@ app.get('/chutoy', cors(corsOptions), (req, res) => {
 });
 
 app.listen(port, () => {
-	console.log(`Example app listening on port ${port}`);
+	console.log(`FLWN API for LastFM listening on port ${port}`);
 });
